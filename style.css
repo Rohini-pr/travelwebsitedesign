@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&family=Averia+Serif+Libre:wght@300&family=Barrio&family=Charmonman&family=Cookie&family=Delius&family=Festive&family=Handlee&family=Linden+Hill:ital@1&family=Meddon&family=Noto+Emoji:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Qwigley&family=Rancho&family=Sail&family=Sedgwick+Ave+Display&family=Sniglet&family=Spirax&family=Staatliches&family=Vollkorn:ital@1&family=Yanone+Kaffeesatz:wght@200&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1520361478772-fdedfca17f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&w=1000&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+
+nav h1{
+    
+    color: orange;
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    font-weight: bold;
+    /* font-size: 50px;
+*/
+}
+nav span{
+    color: white;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    font-weight: bold;
+    /* font-size: 38px; */
+}
+nav ul{
+    margin-left: 90px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* navbar end */
+/* section Book Start */
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.main-text h1 span{
+    color: #ffa500;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0 5px 5px -6px black;
+    height: 210px;
+}
+.book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
+
+/* section Book end */
+
+
+/* section packages start  */
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #ffa500;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+    height: 500px;
+}
+.packages .card img{
+    border-radius: 5px;
+    height: 200px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+    text-align: justify;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h5{
+    /* font-size: 20px; */
+    color: rgb(104, 99, 99);
+    font-family: 'Arima Madurai', cursive;
+}
+.packages .card .card-body a{
+    padding: 6px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+/* section packages end */
+
+/* section services start */
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.services .card{
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+
+}
+.services .card .card-body h3{
+    font-weight: 10px;
+    color: rgb(136, 129, 129);
+    /* font-family: 'Averia Serif Libre', cursive; */
+    font-family: 'Arima Madurai', cursive;
+    font-size: 22px;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* section services end */
+
+/* section gallary start */
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-decoration-break: rgba(0,0,0,0.1)0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+.gallary h2{
+    font-family: 'Arima Madurai', cursive;
+}
+.gallary p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+
+}
+/* @media (max-width:765px){
+    .gallary{
+        padding: 0;
+    }
+} */
+/* section gallary end */
+
+/* Section about start */
+.about{
+    padding: 5px;
+    margin-top: 50px;
+    background: #f9f9f9;
+    padding-bottom: 20px;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+
+}
+.about h2{
+    font-weight: 450;
+    letter-spacing: 1px;
+    font-family: 'Arima Madurai', cursive;
+
+}
+.about p{
+    font-size: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
+}
+.about h6{
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    color: rgb(71, 112, 27);
+    margin-bottom: 20px;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+
+}
+
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+/* Section about end */
+
+/* section customer revie start */
+.customerlove{
+    margin-top: 50px;
+}
+.customerlove #card-left-img{
+    height: 340px;
+}
+.customerlove #card-img img{
+    height: 340px;
+}
+.customerlove .card{
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px rgb(255, 253, 253);
+    border: transparent;
+    
+}
+#customer-img{
+    width: 25%;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px ;
+    margin-top: 20px;
+}
+.customerlove .card-body{
+    height: 210px;
+}
+.customerlove .card-body i{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.customerlove .card-body h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.customerlove .card-body p{
+    font-family: 'Cookie', cursive;
+    font-size: 21px;
+}
+/* section customer review end */
+
+
+/* ----------------Footer start--------------------------- */
+.bottom-section{
+    position: relative;
+    background-color: rgb(43, 5, 5);
+    color: white;
+}
+
+#aboutt{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
+    align-items: center;
+}
+.aboutdtl{
+    align-items: center;
+   padding-top: 20px;
+   
+}
+.Services{
+    margin-top: 2%;
+    
+    align-items: center;
+   
+    margin-bottom: 3%;
+}
+.Services h5{
+    color: orange;
+}
+.Services p a{
+    color: white;
+    text-decoration: none;
+}
+.Services p a i{
+    color: orange;
+}
+
+#contact{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+.iconDiv{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9px;
+
+}
+.icon a{
+    
+    color: white;
+}
+.icon i{
+    font-size: 16px;
+
+} 
+.icon:hover{
+    background-image: linear-gradient(180deg, red, yellow);
+    color: aliceblue;
+}  
+footer{
+    padding-bottom: 3px;
+    margin:0;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 0;
+   
+}
+.up-arrow{
+    float: right;
+    margin-right: 20px;
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, red, yellow);
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+.up-arrow i{
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f9f9f9;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffa500;
+    border-radius: 10px;
+}
