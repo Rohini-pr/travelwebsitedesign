@@ -1,5 +1,5 @@
 # Gogo Travel
-This is a Frontend that I made using HTML and CSS.
+This is a Frontend that I made using HTML, CSS and BOOTSTRAP.
 
 
 
